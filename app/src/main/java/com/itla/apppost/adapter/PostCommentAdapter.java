@@ -55,47 +55,59 @@ public class PostCommentAdapter extends PostAdapter {
 
 		if (posts.get(position).getType() == TypePost.POST) {
 
-			super.onBindViewHolder(holder, position);
-
-			CardView cardView = view.findViewById(R.id.cardPost);
-			cardView.setClickable(false);
-
-			TextView txtPostContent = view.findViewById(R.id.txtPostContent);
-			txtPostContent.setMaxLines(Integer.MAX_VALUE);
+			pullPostViewer(holder, position, view);
 
 		} else if (posts.get(position).getType() == TypePost.COMMENT) {
 
-			TextView txtAuthorComment = view.findViewById(R.id.txtAuthorComment);
-			TextView txtDateComment = view.findViewById(R.id.txtDateComment);
-			TextView txtCommentPost = view.findViewById(R.id.txtCommentPost);
-
-			txtAuthorComment.setText(post.getUserName());
-
-			String dateTime = DateUtil.longToDateTimeFormartter(Long.parseLong(post.getCreatedAt()));
-			txtDateComment.setText(dateTime);
-
-			txtCommentPost.setText(post.getBody());
+			pullCommentViewer(view, post);
 
 		} else if (posts.get(position).getType() == TypePost.TAG) {
 
-			final ChipGroup tagGroup = view.findViewById(R.id.tagGroup);
-			tagGroup.removeAllViews();
-
-			List<String> tags = Arrays.asList(post.getTags());
-			for (String tagText : tags) {
-
-				Chip tag = new Chip(tagGroup.getContext());
-				tag.setText(tagText);
-				tag.setCheckable(false);
-				tag.setChipBackgroundColorResource(R.color.material_grey_100);
-				tag.setChipStrokeWidth(2);
-				tag.setChipStrokeColor(ColorStateList.valueOf(context.getResources().getColor(R.color.secondary_text_light)));
-				tagGroup.addView(tag);
-
-			}
+			pullTagViewer(view, post);
 
 		}
 
+	}
+
+	private void pullTagViewer(View view, Post post) {
+		final ChipGroup tagGroup = view.findViewById(R.id.tagGroup);
+		tagGroup.removeAllViews();
+
+		List<String> tags = Arrays.asList(post.getTags());
+		for (String tagText : tags) {
+
+			Chip tag = new Chip(tagGroup.getContext());
+			tag.setText(tagText);
+			tag.setCheckable(false);
+			tag.setChipBackgroundColorResource(R.color.material_grey_100);
+			tag.setChipStrokeWidth(2);
+			tag.setChipStrokeColor(ColorStateList.valueOf(context.getResources().getColor(R.color.secondary_text_light)));
+			tagGroup.addView(tag);
+
+		}
+	}
+
+	private void pullCommentViewer(View view, Post post) {
+		TextView txtAuthorComment = view.findViewById(R.id.txtAuthorComment);
+		TextView txtDateComment = view.findViewById(R.id.txtDateComment);
+		TextView txtCommentPost = view.findViewById(R.id.txtCommentPost);
+
+		txtAuthorComment.setText(post.getUserName());
+
+		String dateTime = DateUtil.longToDateTimeFormartter(Long.parseLong(post.getCreatedAt()));
+		txtDateComment.setText(dateTime);
+
+		txtCommentPost.setText(post.getBody());
+	}
+
+	private void pullPostViewer(@NonNull RecyclerView.ViewHolder holder, int position, View view) {
+		super.onBindViewHolder(holder, position);
+
+		CardView cardView = view.findViewById(R.id.cardPost);
+		cardView.setClickable(false);
+
+		TextView txtPostContent = view.findViewById(R.id.txtPostContent);
+		txtPostContent.setMaxLines(Integer.MAX_VALUE);
 	}
 
 	private void addTag(String s) {
