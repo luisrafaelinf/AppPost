@@ -2,20 +2,16 @@ package com.itla.apppost.adapter;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
-import android.content.res.Resources;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.annotation.Dimension;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.chip.Chip;
-import com.google.android.material.chip.ChipDrawable;
 import com.google.android.material.chip.ChipGroup;
 import com.itla.apppost.R;
 import com.itla.apppost.constant.TypePost;
@@ -24,8 +20,6 @@ import com.itla.apppost.util.DateUtil;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.logging.Logger;
-import java.util.stream.Stream;
 
 public class PostCommentAdapter extends PostAdapter {
 
@@ -53,23 +47,23 @@ public class PostCommentAdapter extends PostAdapter {
 		final View view = holder.itemView;
 		final Post post = posts.get(position);
 
-		if (posts.get(position).getType() == TypePost.POST) {
+		if (post.getType() == TypePost.POST) {
 
-			pullPostViewer(holder, position, view);
+			fillPostViewer(holder, position, view);
 
-		} else if (posts.get(position).getType() == TypePost.COMMENT) {
+		} else if (post.getType() == TypePost.COMMENT) {
 
-			pullCommentViewer(view, post);
+			fillCommentViewer(view, post);
 
-		} else if (posts.get(position).getType() == TypePost.TAG) {
+		} else if (post.getType() == TypePost.TAG) {
 
-			pullTagViewer(view, post);
+			fillTagViewer(view, post);
 
 		}
 
 	}
 
-	private void pullTagViewer(View view, Post post) {
+	private void fillTagViewer(View view, Post post) {
 		final ChipGroup tagGroup = view.findViewById(R.id.tagGroup);
 		tagGroup.removeAllViews();
 
@@ -87,7 +81,7 @@ public class PostCommentAdapter extends PostAdapter {
 		}
 	}
 
-	private void pullCommentViewer(View view, Post post) {
+	private void fillCommentViewer(View view, Post post) {
 		TextView txtAuthorComment = view.findViewById(R.id.txtAuthorComment);
 		TextView txtDateComment = view.findViewById(R.id.txtDateComment);
 		TextView txtCommentPost = view.findViewById(R.id.txtCommentPost);
@@ -100,7 +94,7 @@ public class PostCommentAdapter extends PostAdapter {
 		txtCommentPost.setText(post.getBody());
 	}
 
-	private void pullPostViewer(@NonNull RecyclerView.ViewHolder holder, int position, View view) {
+	private void fillPostViewer(@NonNull RecyclerView.ViewHolder holder, int position, View view) {
 		super.onBindViewHolder(holder, position);
 
 		CardView cardView = view.findViewById(R.id.cardPost);
