@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.itla.apppost"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="28"
+9-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:6:2-80
+12-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:6:19-61
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:7:2-76
+13-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:7:19-73
+14
+15    <dist:module dist:instant="true" />
+15-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:9:2-37
+15-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:9:15-34
+16
+17    <application
+17-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:11:2-35:16
+18        android:allowBackup="true"
+18-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:12:3-29
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/luisrafaelinf/.gradle/caches/transforms-2/files-2.1/8a1d947778c3b1f80abb56b30c93207c/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:13:3-37
+23        android:label="@string/app_name"
+23-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:14:3-35
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:15:3-48
+25        android:supportsRtl="true"
+25-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:16:3-29
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme"
+27-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:17:3-34
+28        android:usesCleartextTraffic="true"
+28-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:19:3-38
+29        android:windowSoftInputMode="adjustResize" >
+29-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:18:3-45
+30        <activity android:name="com.itla.apppost.MainActivity" >
+30-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:20:3-26:14
+30-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:20:13-41
+31            <intent-filter>
+31-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:21:4-25:20
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:22:5-57
+32-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:22:13-54
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:24:5-65
+34-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:24:15-62
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.itla.apppost.wall.PostWallActivity" />
+37-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:27:3-53
+37-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:27:13-50
+38        <activity android:name="com.itla.apppost.wall.PostActivity" />
+38-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:28:3-49
+38-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:28:13-46
+39        <activity android:name="com.itla.apppost.wall.PostViewActivity" />
+39-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:29:3-53
+39-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:29:13-50
+40
+41        <meta-data
+41-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:31:3-33:48
+42            android:name="preloaded_fonts"
+42-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:32:4-34
+43            android:resource="@array/preloaded_fonts" />
+43-->/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/AndroidManifest.xml:33:4-45
+44    </application>
+45
+46</manifest>

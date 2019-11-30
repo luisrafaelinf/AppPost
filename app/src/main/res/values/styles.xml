@@ -1,0 +1,24 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/blue_primary</item>
+	</style>
+
+	<style name="button" parent="@style/Widget.MaterialComponents.Button">
+		<item name="backgroundTint">@color/blue_secundary</item>
+		<item name="rippleColor">@color/blue_primary</item>
+		<item name="background">@color/blue_secundary</item>
+	</style>
+
+	<style name="tab" parent="@style/Widget.MaterialComponents.TabLayout">
+		<item name="tabTextColor">@color/blue_secundary</item>
+		<item name="android:background">@color/blue_primary</item>
+		<item name="tabSelectedTextColor">@color/blue_secundary</item>
+		<item name="tabIndicatorColor" >@color/white</item>
+	</style>
+
+</resources>

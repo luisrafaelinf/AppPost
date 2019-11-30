@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/post"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/blue_primary"
+	android:backgroundTint="@color/blue_primary"
+	android:scrollbarSize="0dp"
+	android:scrollbars="vertical"
+	android:transitionName="@string/fab_transformation_scrim_behavior"
+	tools:context="com.itla.apppost.wall.PostActivity">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/blue_primary"
+		android:backgroundTint="@color/blue_primary"
+		android:padding="10dp">
+
+		<EditText
+			android:id="@+id/txtTitleNewPost"
+			android:layout_width="0dp"
+			android:layout_height="60dp"
+			android:background="@drawable/text_field_top"
+			android:ems="10"
+			android:fontFamily="@font/roboto"
+			android:foregroundGravity="center"
+			android:hint="Título del post"
+			android:inputType="textPersonName"
+			android:maxLines="1"
+			android:paddingHorizontal="10dp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+		<EditText
+			android:id="@+id/txtContentNewPost"
+			android:layout_width="0dp"
+			android:layout_height="170dp"
+			android:background="@drawable/text_field"
+			android:ems="10"
+			android:fontFamily="@font/roboto"
+			android:gravity="start|top"
+			android:hint="Contenido"
+			android:inputType="textMultiLine"
+			android:maxLines="10"
+			android:paddingHorizontal="10dp"
+			android:paddingVertical="10dp"
+			app:layout_constraintEnd_toEndOf="@+id/txtTitleNewPost"
+			app:layout_constraintStart_toStartOf="@+id/txtTitleNewPost"
+			app:layout_constraintTop_toBottomOf="@+id/txtTitleNewPost" />
+
+		<Button
+			android:id="@+id/btnCreatePost"
+			style="@style/button"
+			android:layout_width="0dp"
+			android:layout_height="60dp"
+			android:layout_marginTop="30dp"
+			android:text="Crear post"
+			android:textAllCaps="false"
+			android:textColor="@color/white"
+			android:textSize="18sp"
+			app:layout_constraintEnd_toEndOf="@+id/txtTagNewPost"
+			app:layout_constraintStart_toStartOf="@+id/txtTagNewPost"
+			app:layout_constraintTop_toBottomOf="@+id/txtTagNewPost" />
+
+		<EditText
+			android:id="@+id/txtTagNewPost"
+			android:layout_width="0dp"
+			android:layout_height="60dp"
+			android:background="@drawable/text_field_bottom"
+			android:ems="10"
+			android:fontFamily="@font/roboto"
+			android:hint="Tags (seperados por coma)"
+			android:inputType="textPersonName"
+			android:maxLines="1"
+			android:paddingHorizontal="10dp"
+			android:paddingVertical="10dp"
+			app:layout_constraintEnd_toEndOf="@+id/txtContentNewPost"
+			app:layout_constraintStart_toStartOf="@+id/txtContentNewPost"
+			app:layout_constraintTop_toBottomOf="@+id/txtContentNewPost" />
+
+		<TextView
+			android:id="@+id/textView"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_bold"
+			android:gravity="center"
+			android:paddingBottom="10dp"
+			android:text="Nuevo Post"
+			android:textColor="@color/white"
+			android:textSize="24sp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+
+

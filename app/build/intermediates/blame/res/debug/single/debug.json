@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_button_login.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/button_login.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_minus_one.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/minus_one.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_post_wall.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/post_wall.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_person_black_18dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_person_black_18dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_person.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_person.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/anim_post_anim.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/anim/post_anim.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable-v24_text_field_bottom.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable-v24/text_field_bottom.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_tag_layout.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/tag_layout.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_lock_black_24dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/font_roboto_mono_thin.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/font/roboto_mono_thin.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_person_black.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_person_black.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_visibility.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/visibility.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_chat_bubble_18dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_chat_bubble_18dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_account_circle_blue_24dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_account_circle_blue_24dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_add_white_24dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_add_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_thumb_up_18dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_thumb_up_18dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_markunread_black_24dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_markunread_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_text_field_top.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/text_field_top.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_username.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_username.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_comment_layout.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/comment_layout.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_text_field.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/text_field.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/font_audiowide.ttf.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/font/audiowide.ttf"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_visibility_18dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_visibility_18dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_post_layout.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/post_layout.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_person_black_24dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_chat_bubble.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/chat_bubble.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/font_roboto_mono.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/font/roboto_mono.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/font_roboto_light.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/font/roboto_light.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_plus_one.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/plus_one.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_password.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_password.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/font_roboto.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/font/roboto.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/font_roboto_bold.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/font/roboto_bold.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_add_blue_24dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_add_blue_24dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_post.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/post.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_login.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_ic_thumb_up_blue_18dp.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/ic_thumb_up_blue_18dp.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_user_post.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/user_post.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/layout_register.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/layout/register.xml"
+    },
+    {
+        "merged": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/res/merged/debug/drawable_line_separator.xml.flat",
+        "source": "/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/src/main/res/drawable/line_separator.xml"
+    }
+]

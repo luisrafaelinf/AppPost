@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/cardCommentPost"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="0dp"
+	android:layout_marginTop="0dp"
+	android:layout_marginRight="0dp"
+	app:cardCornerRadius="0dp"
+	app:cardElevation="2dp"
+	tools:layout_editor_absoluteX="10dp"
+	tools:layout_editor_absoluteY="10dp">
+
+
+	<View
+		android:id="@+id/divider3"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/material_grey_100" />
+
+	<HorizontalScrollView
+		android:id="@+id/contentTags"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:isScrollContainer="true"
+		android:padding="10dp"
+		android:scrollbarSize="0dp"
+		android:scrollbars="horizontal|vertical">
+
+		<com.google.android.material.chip.ChipGroup
+			android:id="@+id/tagGroup"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:isScrollContainer="true"
+			android:scrollbars="horizontal"
+			app:chipSpacingHorizontal="10dp"
+			app:singleLine="true">
+
+		</com.google.android.material.chip.ChipGroup>
+	</HorizontalScrollView>
+
+</androidx.cardview.widget.CardView>
+
+

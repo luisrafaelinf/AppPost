@@ -1,0 +1,7 @@
+#Sat Nov 30 14:34:51 AST 2019
+base.0=/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/luisrafaelinf/AndroidStudioProjects/AppPost/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

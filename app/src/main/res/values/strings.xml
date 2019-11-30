@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">Post-App </string>
+	<string name="URL_API">http://itla.hectorvent.com/api/</string>
+</resources>
